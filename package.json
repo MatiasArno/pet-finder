@@ -1,0 +1,26 @@
+{
+  "name": "pet-finder",
+  "version": "1.0.0",
+  "description": "Node APP for pet finding",
+  "main": "index.js",
+  "source": "./fe-src/index.html",
+  "scripts": {
+    "test": "",
+    "dev:be": "",
+    "dev:fe": "parcel --port 27000 --dist-dir ./fe-dist",
+    "build:fe": "parcel build"
+  },
+  "keywords": [
+    "Pet",
+    "finder",
+    "Network",
+    "API",
+    "REST",
+    "React"
+  ],
+  "author": "Arno",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "2.10.3"
+  }
+}
